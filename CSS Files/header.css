@@ -1,0 +1,243 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    height:60px;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:white;
+    border-bottom:0.5px solid rgb(217, 217, 217);
+    z-index:1;
+}
+
+   
+
+.left-section{
+    display:flex;
+    align-items: center;
+    width:200px;
+
+}
+
+
+#hamberger-menu{
+    width:24px;
+    height:25px;
+    
+    margin-right:20px;
+    margin-left:25px;
+}
+
+#hamberger-menu:hover{
+    cursor:pointer;
+}
+
+#youtube-logo{
+    width:90px;
+    height:35px;
+}
+
+#youtube-logo:hover{
+    cursor:pointer;
+}
+
+.middle-section{
+    max-width:500px;
+    display:flex;
+    align-items: center;
+    flex:1;
+}
+
+#search{
+    flex:1;
+    height:35px;
+    width:350px;
+    max-width:350px;
+    margin-right:-1px;
+    border:1px solid rgb(194, 194, 194);
+    box-shadow:inset 1px 1px 1px rgb(246, 246, 246);
+    font-size:16px;
+    margin-left:20px;
+    
+}
+
+#search::placeholder{
+    font-family:roboto;
+    font-size:15px;
+    font-weight: 350;
+    color:gray;
+    padding-left:10px;
+}
+
+
+.search-button{
+    border:1px solid rgb(194, 194, 194);
+    height:39px;
+    width:65px;
+    margin-right:10px;
+    background-color:rgb(246, 246, 246);
+    border-radius:2px;
+    position:relative;
+}
+
+.search-button:hover{
+    cursor:pointer;
+}
+
+
+.search-button-text,.search-button-text1{
+    position:absolute;
+    background-color:rgb(112,112,112);
+    color:white;
+    font-family:roboto;
+    font-size:12px;
+    border-radius:2px;
+    padding:4px;
+    bottom:-35px;
+    left:8px;
+    opacity:0;
+    pointer-events:none;
+    white-space:nowrap;
+    transition: opacity 0.2;
+    
+}
+
+.search-button:hover .search-button-text,
+.search-button1:hover .search-button-text1,
+.upload-div:hover .upload-text,
+.app-div:hover .app-text,
+.bell-div:hover .bell-text{
+    opacity:1;
+  
+}
+
+#button1{
+    width:24px;
+    height:24px;
+    background-color:rgba(228, 226, 226, 0.03);
+   
+}
+
+.search-button1{
+    position:relative;
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    border:none;
+    background-color:rgb(246, 246, 246);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.search-button1:hover{
+    cursor:pointer;
+}
+
+
+    
+
+
+#button2{
+    width:24px;
+    height:24px;
+   
+   
+}
+
+
+.right-section{
+    display:flex;
+    align-items:center;
+    width:230px;
+    justify-content:space-evenly;
+    
+}  
+
+.upload-div,.app-div,.bell-div{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.upload-text,.app-text,.bell-text{
+    position:absolute;
+    background-color:rgb(112,112,112);
+    color:white;
+    font-family:roboto;
+    font-size:12px;
+    border-radius:2px;
+    padding:4px;
+    bottom:-42px;
+    opacity:0;
+    pointer-events:none;
+    white-space:nowrap;
+    transition:opacity 0.2s;
+}
+
+#upload{
+    width:25px;
+    height:25px;
+    }
+
+
+
+#upload:hover{
+    cursor:pointer;
+}
+
+#app{
+    width:25px;
+    height:25px;
+    
+}
+#app:hover{
+    cursor:pointer;
+}
+
+
+
+.bell-div:hover{
+    cursor:pointer;
+}
+
+#notifications{
+    width:25px;
+    height:25px;
+    color:rgb(119, 119, 119);
+    
+}
+
+#bell{
+    position:absolute;
+    top:-3px;
+    right:-4px;
+    background-color:rgb(190, 6, 6);
+    color:white;
+    font-family:roboto;
+    font-size:11px;
+    font-weight: 500;
+    padding:2px 5px;
+    border-radius:10px;
+    border-color:0.5px solid white;
+  
+    
+}
+
+
+#profile{
+    width:35px;
+    height:35px;
+    border-radius:17px;
+    
+}
+
+#profile:hover{
+    cursor:pointer;
+}
+
+
